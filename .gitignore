@@ -1,0 +1,57 @@
+# ==========================================
+# Python Byte-code / Compiled
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ==========================================
+# Environments & Packages
+# ==========================================
+.venv/
+venv/
+ENV/
+env/
+dist/
+build/
+*.egg-info/
+
+# ==========================================
+# FastAPI & Application Secrets
+# ==========================================
+.env
+*.env
+.env.local
+.fastapicloudignore
+
+# ==========================================
+# Databases & Logs
+# ==========================================
+*.db
+*.sqlite3
+*.sqlite3-journal
+*.log
+
+# ==========================================
+# Testing & Code Quality Caches
+# ==========================================
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.ruff_cache/
+
+# ==========================================
+# IDEs & Editor Configurations
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==========================================
+# Operating System Files
+# ==========================================
+.DS_Store
+Thumbs.db
